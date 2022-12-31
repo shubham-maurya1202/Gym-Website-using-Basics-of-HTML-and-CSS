@@ -1,0 +1,129 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('backgroung_img.jpg');
+    color: #b3fd3d;
+    font-size: 1.8rem;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+}
+
+.left {
+    display: inline-block;
+    top: 5px;
+    position: fixed;
+    left: 20px;
+    color: yellow;
+    text-align: center;
+    padding: 0px -10px;
+}
+
+.mid {
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    width: 60%;
+    top: 10px;
+    margin: 30px auto;
+    padding: 0px 15px;
+    position: relative;
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 50px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    color: yellow;
+    text-decoration: none;
+    padding: 30px 20px;
+    margin: 7px 5px;
+    text-align: center;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(177, 14, 41);
+}
+
+.left img {
+    width: 70px;
+    filter: invert();
+}
+
+.btn {
+    margin: 0px 15px;
+    background-color: yellow;
+    padding: 5px 10px;
+    font-size: 15px;
+
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.vid1 video {
+    position: fixed;
+    height: 22%;
+    width: 22%;
+    left: 5px;
+    display: block;
+
+}
+
+.vid2 video {
+    position: fixed;
+    height: 22%;
+    width: 22%;
+    right: 5px;
+    display: block;
+
+}
+
+.container {
+    font-size: 12px;
+    margin: 170px 950px;
+    padding: 10px 20px;
+    width: 30%;
+    text-align: center;
+    color: red;
+    position: fixed;
+}
+
+.frmgrp input {
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    padding: 6px;
+    margin: 9px auto;
+}
+
+#main-footer {
+    position: fixed;
+    bottom: 2px;
+    width: 100%;
+    height: 50px;
+    padding: 1px 300px;
+    color: white;
+    background-color: rgb(128, 185, 185);
+    display: inline-block;
+}
+footer p{
+    font-size: 20px;
+    color: blue;
+}
